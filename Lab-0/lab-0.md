@@ -107,7 +107,7 @@ At this point, your project should look like this.
 That's our starting point. In the next part, we will work on the player scene and base movement.
 
 
-## Player Input
+## Creating a Player
 
 In the next parts, we will design the player scene, register custom input actions, and code player movement. By the end, you\'ll have a playable character that moves in eight directions.
 
