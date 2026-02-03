@@ -1,9 +1,10 @@
 # CS2053 Project Requirements
 
-#### Submit Groups via [THIS FORM](https://forms.cloud.microsoft/r/Zyx87MxxCy): **February 13th**
-#### Submit Propsals via a forthcoming form (information coming): **February 20th**
+#### Submit Groups via [THIS FORM](https://forms.cloud.microsoft/r/Zyx87MxxCy): deadline **February 13th**
+#### Submit Propsals via a forthcoming form (information coming): deadline **February 20th**
 
 > If you do not have a **group**, [message us](https://teams.microsoft.com/l/chat/0/0?users=scottb@unb.ca,colin.brett@unb.ca) as soon as possible.
+
 ## Project Requirements
 
 The course project focuses on game **design** and **programming**.
@@ -42,4 +43,5 @@ While you are welcome to follow tutorials to help you learn new **functionality*
 
 Part of your project is an in-class **presentation**.
 You will present your project to the class as a group near the end of the **semester**.
+
 ***More details will follow.***
