@@ -59,7 +59,7 @@ func rotate_ship(delta):
 ```
 - Go back to your main scene. Add the FlyingCraft in, and attach a Camera3D as a child of the player (why as a child?). Move the camera manually to be behind the FlyingCraft, looking at it, at and appropriate distance and angle. Resize and move the ground so that it is below the FlyingCraft and much larger than it (like... the ground).
 
-- Run the program. Press “left arrow” key or “right arrow” key to observe how the 3D model rotates around Y-Axis. We don't have any light in here, so it may be tough to tell; we'll fix that shortly. Change the value of rotationSpeedRadian to make rotation slower or faster.
+- Run the program. Press “left arrow” key or “right arrow” key to observe how the 3D model rotates around Y-Axis (note: that you have to figure out how to get it to rotate in different directions). We don't have any light in here, so it may be tough to tell; we'll fix that shortly. Change the value of rotationSpeedRadian to make rotation slower or faster.
 
 ## Add a light
 - In your main scene, add a DirectionalLight3D node. Rotate and position it so it brightens up your scene nicely. Try running the game again with the light. You may need to increase the light's Energy in the inspector
