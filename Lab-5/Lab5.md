@@ -64,6 +64,7 @@ func _physics_process(delta):
  - Run the program and observe how the Aircraft object moves along a circular path. It rotates in world space as it moves around the circle, and rotates around its own forward axis (model space). If you are unsure, you may want to create another camera "Debug Camera" to give you a bird's eye view and see the scene, or try commenting out the rotations and observing them independently.
  	- You can have multiple cameras. But only one can be "current" at a single time. In the Inspector for each Camera you will find a "current" checkbox. The last camear to be marked as current will be the one that is used. 
 
+![debug camera](img/debug-camera.png)
 
 ## 2. Requirements
 
