@@ -11,17 +11,17 @@ Review the following materials (just for the specified parts of the larger docum
 
 ## 1. Preliminary Steps
 
- 1. Like last lab, re-import the 3D model for the jet (Jet.glb). If your jet is all pink, you need to reimport (Import tab next with Scene -> click on object in file system tab, select reimport). 
- 2. Once imported, create a scene for this jet - create a CharacterBody3D and drag the JET 3D model to the node, give it a name and add it to a Group. Rotate the jet around the y-axis by 90 degrees.
+ 1. Import all files from this lab's resource directory.
+ 2. Once imported, create a scene for the jet - create a CharacterBody3D and drag the JET 3D model to the node, give it a name and add it to a Group. Rotate the jet around the y-axis by 90 degrees.
  2. Add collision boxes to your jet. This time, try to use multiple collision boxes to better fit the craft (you might use 3 BoxShapes, but up to you). If you copy/duplicate nodes, remember to make new BoxShape for the CollisionShape (dropdown menu -> new BoxShape), or else changes to the BoxShape in one CollisionShape will affect the other CollisionShape that shares the same BoxShape.  
  3. You can also create an Area3D that makes of a copy of all the collision boxes from the previous step. This will give you an easy collision solution hack we'll use later.
- 	- In the main scene, add the Jet and a Camera. Set the camera to be a child of the aircraft, and position it appropriately so it follows the aircraft. 
- 	- In Camera, find the Environment property, create a new Environment. 
- 	- In the options, change the background mode to Sky, and in Sky create a new Sky. Inside the Sky tab, create a new Sky, open _that_, for Sky Material creat a PanoramaSkyMaterial, and inside that drag the skybox.png onto Panorama. You will not see it until you look through the camera, so either run the scene to test, or open a camera view with preview turned on (also from lab 0, 1). Note how many things you can do with the sky, the environment, etc. Play around when you have time!
+ 4. In the main scene, add the Jet and a Camera. Set the camera to be a child of the aircraft, and position it appropriately so it follows the aircraft. 
+ 5. In Camera, find the Environment property, create a new Environment. 
+ 6. In the options, change the background mode to Sky, and in Sky create a new Sky. Inside the Sky tab, create a new Sky, open _that_, for Sky Material creat a PanoramaSkyMaterial, and inside that drag the skybox.png onto Panorama. You will not see it until you look through the camera, so either run the scene to test, or open a camera view with preview turned on (also from lab 0, 1). Note how many things you can do with the sky, the environment, etc. Play around when you have time!
  ![image](img/L50.png)
- 	- Create a ground, like before, which is 100 units wide. This time, try experimenting with more material settings here to make something like an ocean - for example, we added a NoiseTexture2D, played with settings, and added the noise with FastNoiseLite in the Noise property. Just explore with this part, a simple ground is also fine:
+ 7. Create a ground, like before, which is 100 units wide. This time, try experimenting with more material settings here to make something like an ocean - for example, we added a NoiseTexture2D, played with settings, and added the noise with FastNoiseLite in the Noise property. Just explore with this part, a simple ground is also fine:
  ![image](img/L51.png)
- 	- Create a new script for the Jet, and copy and paste the following code. Carefully read and understand the code.
+ 8. Create a new script for the Jet, and copy and paste the following code. Carefully read and understand the code.
  
 ```gdscript
 var circleRadius : float
