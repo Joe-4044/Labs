@@ -17,11 +17,13 @@ Review the following materials (just for the specified parts of the larger docum
  3. You can also create an Area3D that makes of a copy of all the collision boxes from the previous step. This will give you an easy collision solution hack we'll use later.
  4. In the main scene, add the Jet and a Camera. Set the camera to be a child of the aircraft, and position it appropriately so it follows the aircraft. 
  5. In Camera, find the Environment property, create a new Environment. 
- 6. In the options, change the background mode to Sky, and in Sky create a new Sky. Inside the Sky tab, create a new Sky, open _that_, for Sky Material creat a PanoramaSkyMaterial, and inside that drag the skybox.png onto Panorama. You will not see it until you look through the camera, so either run the scene to test, or open a camera view with preview turned on (also from lab 0, 1). Note how many things you can do with the sky, the environment, etc. Play around when you have time!
+ 6. In the options, change the background mode to Sky, and in Sky create a new Sky.
+ 7. Inside the Sky tab, create a new Sky, open _that_, for Sky Material create a PanoramaSkyMaterial, and inside that drag the skybox.png onto Panorama.
+	- You will not see it until you look through the camera, so either run the scene to test, or open a camera view with preview turned on (also from lab 0, 1). Note how many things you can do with the sky, the environment, etc. You should explore some of the options.
  ![image](img/L50.png)
- 7. Create a ground, like before, which is 100 units wide. This time, try experimenting with more material settings here to make something like an ocean - for example, we added a NoiseTexture2D, played with settings, and added the noise with FastNoiseLite in the Noise property. Just explore with this part, a simple ground is also fine:
+ 9. Create a ground, like before, and make it 100 units wide. This time, try experimenting with more material settings here to make something like an ocean - for example, we added a NoiseTexture2D, played with settings, and added the noise with FastNoiseLite in the Noise property. Just explore with this part, a simple ground is also fine:
  ![image](img/L51.png)
- 8. Create a new script for the Jet, and copy and paste the following code. Carefully read and understand the code.
+ 10. Create a new script for the Jet, and copy and paste the following code. Carefully read and understand the code.
  
 ```gdscript
 var circleRadius : float
