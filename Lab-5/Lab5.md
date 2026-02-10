@@ -2,12 +2,6 @@
 
 In this lab assignment, you will gain experience with game object rotation in multiple axes, as well as using different light types.
 
-This lab uses: 
-
- - an uncredited open source model for a plane, 
- - a 3D cubemap for a skybox by [https://opengameart.org/users/arikel](https://opengameart.org/users/arikel), 
- - and an open source tool to turn cubemaps into equirectangular panoramas here: [https://danilw.github.io/GLSL-howto/cubemap_to_panorama_js/cubemap_to_panorama.html](https://danilw.github.io/GLSL-howto/cubemap_to_panorama_js/cubemap_to_panorama.html).
-
 ## Due Feb 16th @ 11:59pm
 
 ## Background
@@ -116,4 +110,10 @@ func _physics_process(delta):
 ## Test and Submit
 ### Build and Test on Your Platform
  - Remember to save your scene, and test thoroughly.
- - Remember to commit and push your solution, and verify that it is on the Github website. 
+ - Remember to commit and push your solution, and verify that it is on the Github website.
+
+### Credits
+This lab uses: 
+ - an uncredited open source model for a plane, 
+ - a 3D cubemap for a skybox by [https://opengameart.org/users/arikel](https://opengameart.org/users/arikel), 
+ - and an open source tool to turn cubemaps into equirectangular panoramas here: [https://danilw.github.io/GLSL-howto/cubemap_to_panorama_js/cubemap_to_panorama.html](https://danilw.github.io/GLSL-howto/cubemap_to_panorama_js/cubemap_to_panorama.html).
