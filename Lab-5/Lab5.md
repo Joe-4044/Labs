@@ -81,7 +81,9 @@ func _physics_process(delta):
      + Hint: A trick to find good positions for your obstacles is to do the following: 
        - run your game, get the aircraft on the circular path and then pause your game, at a position and rotation you would like for your obstacle.
        - while the game is running, go to the scene hierarcy, and above it, select "remote" - this now shows the scene that is running live
-       ![image](img/L52.png)
+         
+![image](img/L52.png)
+
        - Go to your aircraft and copy its transform values (In the Inspector, right click the position and  "Copy values"). 
        - Switch back to "local" in the scene tab. Go to your Obstacle's Transform position and paste in the values (click the gear on Transform and "Paste Values")
        - when you do this, make sure that the inspector tab properly updates when you click the local scene - it keeps the old selected node selected, so clicking on it again may not refresh the Inspector tab. Typically, I clicked on another node first, then the one I wanted to paste the values to.
