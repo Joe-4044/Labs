@@ -1,7 +1,7 @@
 # CS2053 Project Requirements
 
 #### Submit Groups via [THIS FORM](https://forms.cloud.microsoft/r/Zyx87MxxCy): deadline **February 13th**
-#### Submit Propsals via a forthcoming form (information coming): deadline **February 20th**
+#### Submit Propsals via [THIS FORM](https://forms.cloud.microsoft/r/gkq6t3U2Yx): deadline **February 23rd**
 
 > If you do not have a **group**, [message us](https://teams.microsoft.com/l/chat/0/0?users=scottb@unb.ca,colin.brett@unb.ca) as soon as possible.
 
@@ -45,3 +45,4 @@ Part of your project is an in-class **presentation**.
 You will present your project to the class as a group near the end of the **semester**.
 
 ***More details will follow.***
+
