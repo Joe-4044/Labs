@@ -11,6 +11,8 @@ You must use the lab computers to complete this exam. Secondary devices are allo
 
 You have 40 minutes (4:15pm-4:55pm) during lab time to complete the exam and submit it by committing and pushing your solution. It would be best to allocate a small amount of time for submission.
 
+![Playthrough Gif](img/play-through.gif)
+
 ## Requirements
 You will build a simple game to have a player tank attack and destroy an enemy tank.
 
@@ -31,7 +33,7 @@ The provided character.gd script should be read carefully, as it provides a part
 	- You should be able to drive your player already. The mouse rotates the tank slowly as it follows your mouse cursor. The 'w' key moves the tank forward (it can only go forward). The mouse button will fire a shot. However, your tank cannot be turning when shooting, you must be looking straight ahead. Your tank will not allow you to drive off the screen.
 2. (*8 points*) Recreate a game map that includes three distinct obstacle walls using a ```TileMapLayer```. You will have to us the provided `sheet.png` with your ```TileMapLayer```. Use one tile for the background. Use another tile that matches aesthetically for the obstacles (like the flowers). The tank should not 
 2. (*8 points*) Using the `tank2.png` create an enemy character. The enemy will drive back and forth in a straight horizontal line. The tank should not exit the screen, or cross over any bariers. It is OK if you hardcode in values to keep the tank in the area. Your tank should have a ```CollisionShape2D``` that allows it to be shot by the Area2D explosion from the player's shot.
-3. (*10 points*) Edit the Area2D script associated with the explosion. You can find this in the provided files: ```explosion.gd```. Update this script so that when the enemy is shot 3 times, it is destroyed (removed from the game), meaning the player has won. Add a ```Label``` to the game that clearly displays a "Game Over" message that is displayed only when the player wins the game.
+3. (*10 points*) Edit the Area2D script associated with the explosion. You can find this in the provided files: ```explosion.gd```. Update this script so that when the enemy is shot 3 times, it is destroyed (removed from the game); meaning the player has won. Add a ```Label``` to the game that clearly displays a "Game Over" message that is displayed only when the player wins the game.
 4. (*2 points*) Pushing the 'r' key on the keyboard restarts the game (restarting could happen at any time, not just after winning).
 
 ![Win State](img/win-state.png)
