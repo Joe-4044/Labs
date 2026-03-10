@@ -48,11 +48,12 @@ Part of your project is an in-class **presentation** as follows:
  - Questions: 2-3 mins
  - Attendance is mandatory for all (after each presentation a potentional exam question will be revealed!)
  - Includes the following details:
-  - The game's title, genre and team members
-  - The game's story
-  - The core mechanics of the game
-  - The controls for the game
-  - Demonstration of game play (recorded video is totally fine and a safer bet)
-  - Describe a part of your game implementation that you would have liked to improve or that didn't work out as you hoped
-  - Describe a part of your game implementation that you were pleased with
+   - The game's title, genre and team members
+   - The game's story
+   - The core mechanics of the game
+   - The controls for the game
+   - Demonstration of game play (recorded video is totally fine and a safer bet)
+   - Describe a part of your game implementation that you would have liked to improve or that didn't work out as you hoped
+   - Describe a part of your game implementation that you were pleased with
+
 
