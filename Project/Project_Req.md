@@ -46,7 +46,7 @@ Part of your project is an in-class **presentation** as follows:
  - Your group will be assigned to present on one of the following days: April 1st, 8th, or 10th.
  - Presentation: Length 7-8 mins
  - Questions: 2-3 mins
- - Attendance is mandatory for all (after each presentation a potentional exam question will be revealed!)
+ - Attendance is mandatory for all (after each presentation a potential exam question will be revealed!)
  - Includes the following details:
    - The game's title, genre and team members
    - The game's story
@@ -55,5 +55,6 @@ Part of your project is an in-class **presentation** as follows:
    - Demonstration of game play (recorded video is totally fine and a safer bet)
    - Describe a part of your game implementation that you would have liked to improve or that didn't work out as you hoped
    - Describe a part of your game implementation that you were pleased with
+
 
 
