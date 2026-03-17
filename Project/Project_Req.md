@@ -41,8 +41,20 @@ While you are welcome to follow tutorials to help you learn new **functionality*
 
 ### Project Presentation
 
-Part of your project is an in-class **presentation**.
-You will present your project to the class as a group near the end of the **semester**.
+Part of your project is an in-class **presentation** as follows:
+ - Your presentation will be 10% of your final grade. 
+ - Your group will be assigned to present on one of the following days: April 1st, 8th, or 10th.
+ - Presentation: Length 7-8 mins
+ - Questions: 2-3 mins
+ - Attendance is mandatory for all (after each presentation a potential exam question will be revealed!)
+ - Includes the following details:
+   - The game's title, genre and team members
+   - The game's story
+   - The core mechanics of the game
+   - The controls for the game
+   - Demonstration of game play (recorded video is totally fine and a safer bet)
+   - Describe a part of your game implementation that you would have liked to improve or that didn't work out as you hoped
+   - Describe a part of your game implementation that you were pleased with
 
-***More details will follow.***
+
 
