@@ -29,7 +29,7 @@ Everything you need to complete the game is provided with the exception of the b
 4. (**3 points**) After winning or losing the ball can no longer be controlled. 
 5. (**3 points**) If the ball continues moving and hits a wall after winning or the goal after losing, the message should not change.
 6. (**2 points**) Pushing the 'r' key on the keyboard restarts the game (restarting could happen at any time, not just after winning or losing). 
-7. (**3 points**) Add at least 8 of the provided obstacles spread out evenly throughout the level. Ensure that the obstacles are placed so that they do not touch the red walls. The the obstacle script should not need to be editted in anyway.
+7. (**3 points**) Add at least 8 of the provided obstacles spread out evenly throughout the level. Ensure that the obstacles are placed so that they do not touch the red walls. The the obstacle script should not need to be editted in anyway. *See the image below.*
 
 ### Hints
 
@@ -37,4 +37,5 @@ Everything you need to complete the game is provided with the exception of the b
 
 - You can use ```body.is_in_group("wall")``` to test to see if your player ball is colliding with the wall group.
  
- 
+![The Editor at the End](img/editor-view.png)
+
