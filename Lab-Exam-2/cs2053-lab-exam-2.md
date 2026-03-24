@@ -21,15 +21,15 @@ Below are instructions on how to complete the game. Partial points are available
 Everything you need to complete the game is provided with the exception of the ball that you will guide through. The image below shows the provided level you have and will use. No changes are needed to this level.
 ![The Editor at the Beginning](img/editor-view-start.png)
 
-### Detailed Steps - 35 points total
+### Detailed Steps - 30 points total
 
 1. (**8 points**) Create a player ball with a radius of 1 meter that is controlled using forces, applied to the ball. The player ball should start towards in the course towards the end furthest from the purple goal wall.
 2. (**2 points**) Add the provided spring follow camera, so it is place ideally to follow the player ball through the course. 
-3. (**8 points**) Hitting the red wall causes the provided "Lose Label" to be made visible. Reaching the purple goal wall at the end causes the "Win Label" to be made visible. *See hints below*. 
+3. (**9 points**) Hitting the red wall causes the provided "Lose Label" to be made visible. Reaching the purple goal wall at the end causes the "Win Label" to be made visible. *See hints below*. 
 4. (**3 points**) After winning or losing the ball can no longer be controlled. 
 5. (**3 points**) If the ball continues moving and hits a wall after winning or the goal after losing, the message should not change.
 6. (**2 points**) Pushing the 'r' key on the keyboard restarts the game (restarting could happen at any time, not just after winning or losing). 
-7. (**3 points**) Add at least 8 of the provided obstacles spread out evenly throughout the level. Ensure that the obstacles are placed, so that they do not touch the red walls. The the obstacle script should not need to be editted in anyway.
+7. (**3 points**) Add at least 8 of the provided obstacles spread out evenly throughout the level. Ensure that the obstacles are placed so that they do not touch the red walls. The the obstacle script should not need to be editted in anyway.
 
 ### Hints
 
